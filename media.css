@@ -3,13 +3,34 @@
         max-width: 327px;
     }
     .nav-center{
-        display: none;
-    }
+        display: none;}
+    /* .nav{
+        gap: 10px;
+    } */
     .brg{
         display: block;
     }
     .logo img{
         width: 150px;
+    }
+    .nav-center{
+        gap:20px;
+    }
+    .list{
+        gap: 10px;
+    }
+    .list>li{
+        width: 55px;
+        height: 60px;
+    }
+    .nav-center>.btns{
+        margin: 0 auto;
+        align-items: center;
+        width: 250px;
+    }
+    .burg-inp:checked+.nav-center{
+        display: block;
+       width: 327px;
     }
     /* hero */
     .hero{
@@ -143,6 +164,14 @@
         font-size: 32px;
         font-weight: 500;
         line-height: 150%;
+    }
+    /* setup */
+    .setup-konf{
+        padding: 56px 24px 56px 24px;
+        gap: 32px;
+    }
+    .s-button{
+        width: 278px;
     }
     /* footer */
     .footer-text{
