@@ -1,0 +1,158 @@
+@media screen and (max-width:428px){
+    .container{
+        max-width: 327px;
+    }
+    .nav-center{
+        display: none;
+    }
+    .brg{
+        display: block;
+    }
+    .logo img{
+        width: 150px;
+    }
+    /* hero */
+    .hero{
+        padding: 40px 0 56px 0;
+        gap: 40px;
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        display: none;
+    }
+    .vm{
+        width: 327px;
+        height: 327px;
+        display: block;
+    }
+    .hero-text{
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .text-top>h1{
+        font-size: 36px;
+    }
+    .icon{
+        width: 24px;
+        height: 24px;
+        transform: translate(0px,-100px);
+    }
+    .text-top>p{
+        font-size: 16px;
+        line-height: 28px;  
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .btns>a{
+        padding: 14px 20px;
+        align-self: stretch;
+    }
+    /* main */
+    .partnership{
+        padding: 40px 0 40px 0;
+    }
+    /* about */
+    .about-img-box{
+        width: 327px;
+        height: 268px;
+        flex-shrink: 0;
+        border-radius: 6px;
+        gap: 7.5px;
+    }
+    .about-img-box>img{
+        width: 82.063px;
+        height: 52.476px;
+    }
+    .about-img-box>img:nth-child(1){
+        width: 28.816px;
+        height: 6.247px;
+        transform: translate(-141px,-29px);
+    }
+    .about-img-box>img:nth-child(4){
+        width: 327px;
+        height: 158.051px;
+    }
+    .about-text{
+        width: 327px;
+        gap: 16px;
+    }
+    .about-text>h2{
+        font-size: 28px;
+    }
+    .about-text>p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    /* display */
+    .cd{
+        width: 327px;
+    height: 194px;
+    }
+    .display-img{
+        display: none;
+    }
+    /* all-feauture */
+    .check-box1:nth-child(2){
+        display: none;
+    }
+    .feature-img{
+        display: none;
+    }
+    .al-f{
+        width: 327px;
+        height: 280px;
+    }
+    .feature{
+        gap: 32px;
+    }
+    /* body */
+    .body{
+        gap: 32px;
+    }
+    .actor{
+        display: none;
+    }
+    /* getting-massage */
+    .massege{
+        gap: 60px;
+    }
+    .g-massage-left{
+        width: 300px;
+        align-self: stretch;
+    }
+    .text-massege>h4{
+        width: 250px;
+        font-size: 20px;
+    }
+    .text-massege>p{
+        width: 250px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .g-massage-left>img{
+        width: 56px;
+        height: 56px;
+    }
+    .g-massage-reght>h3{
+        width: 295px;
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 150%;
+    }
+    /* footer */
+    .footer-text{
+        gap: 40px;
+    }
+    .footer-b{
+        flex-direction: column-reverse;
+        gap: 24px;
+    }
+    .footer-b>ul{
+        margin: 0;
+    }
+}    
